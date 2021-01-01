@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D661269259E0F9D00A72D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D661268259E0F9D00A72D20 /* LaunchScreen.storyboard */; };
+		6D661275259E16D900A72D20 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D661274259E16D900A72D20 /* Raleway-VariableFont_wght.ttf */; };
+		6D661278259E16E400A72D20 /* Redressed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D661277259E16E400A72D20 /* Redressed-Regular.ttf */; };
+		6D66127B259E23B500A72D20 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D66127A259E23B500A72D20 /* InfoView.swift */; };
 		6DBE6F312598BE0200CC4B4D /* MattCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE6F302598BE0200CC4B4D /* MattCardApp.swift */; };
 		6DBE6F332598BE0200CC4B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE6F322598BE0200CC4B4D /* ContentView.swift */; };
 		6DBE6F352598BE0900CC4B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE6F342598BE0900CC4B4D /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D661268259E0F9D00A72D20 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D661274259E16D900A72D20 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-VariableFont_wght.ttf"; path = "../../../../../../../Downloads/Raleway/Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6D661277259E16E400A72D20 /* Redressed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Redressed-Regular.ttf"; path = "../../../../../../../Downloads/Redressed/Redressed-Regular.ttf"; sourceTree = "<group>"; };
+		6D66127A259E23B500A72D20 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		6DBE6F2D2598BE0200CC4B4D /* MattCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MattCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBE6F302598BE0200CC4B4D /* MattCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattCardApp.swift; sourceTree = "<group>"; };
 		6DBE6F322598BE0200CC4B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D661265259E0EBC00A72D20 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6D661277259E16E400A72D20 /* Redressed-Regular.ttf */,
+				6D661274259E16D900A72D20 /* Raleway-VariableFont_wght.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		6DBE6F242598BE0200CC4B4D = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +69,11 @@
 		6DBE6F2F2598BE0200CC4B4D /* MattCard */ = {
 			isa = PBXGroup;
 			children = (
+				6D661268259E0F9D00A72D20 /* LaunchScreen.storyboard */,
+				6D661265259E0EBC00A72D20 /* fonts */,
 				6DBE6F302598BE0200CC4B4D /* MattCardApp.swift */,
 				6DBE6F322598BE0200CC4B4D /* ContentView.swift */,
+				6D66127A259E23B500A72D20 /* InfoView.swift */,
 				6DBE6F342598BE0900CC4B4D /* Assets.xcassets */,
 				6DBE6F392598BE0900CC4B4D /* Info.plist */,
 				6DBE6F362598BE0900CC4B4D /* Preview Content */,
@@ -126,6 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D661269259E0F9D00A72D20 /* LaunchScreen.storyboard in Resources */,
+				6D661275259E16D900A72D20 /* Raleway-VariableFont_wght.ttf in Resources */,
+				6D661278259E16E400A72D20 /* Redressed-Regular.ttf in Resources */,
 				6DBE6F382598BE0900CC4B4D /* Preview Assets.xcassets in Resources */,
 				6DBE6F352598BE0900CC4B4D /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBE6F332598BE0200CC4B4D /* ContentView.swift in Sources */,
+				6D66127B259E23B500A72D20 /* InfoView.swift in Sources */,
 				6DBE6F312598BE0200CC4B4D /* MattCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
